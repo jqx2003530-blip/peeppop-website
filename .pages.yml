@@ -42,3 +42,25 @@ content:
         label: Gallery
         type: image
         list: true
+
+        
+  - name: about
+    label: About
+    type: file
+    path: content/about.json
+    fields:
+      - name: intro
+        label: Introduction
+        type: text
+      - name: education
+        label: Education
+        type: text
+      - name: research
+        label: Research
+        type: text
+      - name: exhibitions
+        label: Exhibitions
+        type: text
+      - name: contact
+        label: Contact
+        type: string
