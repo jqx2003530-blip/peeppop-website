@@ -20,11 +20,12 @@ content:
         required: true
       - name: category
         label: Category
-        type: select
+                type: select
         options:
-          - textile
-          - sketches
-          - projects
+          values:
+            - textile
+            - sketches
+            - projects
         required: true
       - name: year
         label: Year
