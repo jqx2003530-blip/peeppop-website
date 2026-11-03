@@ -1,0 +1,44 @@
+media:
+  input: images
+  output: /images
+
+content:
+  - name: works
+    label: Works
+    type: collection
+    path: content/works
+    filename: '{primary}.json'
+    format: json
+    view:
+      fields: [title, category, year]
+      primary: title
+      sort: [year, title]
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        options:
+          - label: Textile & Products
+            value: textile
+          - label: Sketches
+            value: sketches
+          - label: Projects
+            value: projects
+        required: true
+      - name: year
+        label: Year
+        type: number
+      - name: description
+        label: Description
+        type: text
+      - name: cover
+        label: Cover image
+        type: image
+      - name: gallery
+        label: Gallery
+        type: image
+        list: true
