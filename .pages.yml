@@ -21,7 +21,7 @@ content:
 
       - name: category
         label: Category
-        type: select
+        type: string
         options:
         values:
           - textile
