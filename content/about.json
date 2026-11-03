@@ -1,7 +1,10 @@
 {
-  "introduction": "peeppop is a creative portfolio exploring textile design, drawing, and projects inspired by the natural world.",
-  "education": "",
-  "research": "",
-  "exhibitions": "",
-  "contact": ""
+  "exhibitions": [
+    {
+      "title": "ペタプリ",
+      "year": "2025",
+      "location": "gallery metabo Kyoto",
+      "poster": "/images/未命名作品.jpeg"
+    }
+  ]
 }
