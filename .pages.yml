@@ -21,12 +21,12 @@ content:
       - name: category
         label: Category
         type: select
-        options:
-          - label: Textile & Products
+                options:
+          - name: Textile & Products
             value: textile
-          - label: Sketches
+          - name: Sketches
             value: sketches
-          - label: Projects
+          - name: Projects
             value: projects
         required: true
       - name: year
