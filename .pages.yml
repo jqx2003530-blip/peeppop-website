@@ -58,9 +58,28 @@ content:
       - name: research
         label: Research
         type: text
+     
       - name: exhibitions
         label: Exhibitions
-        type: text
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Exhibition title
+            type: string
+          - name: year
+            label: Year
+            type: string
+          - name: location
+            label: Location
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: poster
+            label: Exhibition poster
+            type: image
+
       - name: contact
         label: Contact
         type: string
